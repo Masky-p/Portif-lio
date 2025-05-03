@@ -22,7 +22,7 @@ body {
 .list ul {
     display: flex;
     list-style-type: none;
-    gap: 50px;
+    gap: 5vh;
     font-size: 20px;
     padding-right: 5vh;
     padding-top: 2.8vh;
@@ -47,8 +47,7 @@ body {
 .boneco img {
     position: absolute;
     z-index: 10;
-    height: 170px;
-    width: 140px;
+    height: 22vh;
     padding-left: 27vh;
     padding-top: 1.4vh;
 }
