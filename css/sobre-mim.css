@@ -1,0 +1,28 @@
+.sobre {
+    padding-top: 13vh;
+}
+
+.texto-sobre {
+    color: white;
+    text-align: justify;
+    padding-right: 25vh;
+    position: absolute;
+    left: 0;
+    transition: transform 2s ease;
+}
+
+.texto-sobre.moving {
+    transform: translateX(12vh);
+}
+
+.texto-sobre p {
+    font-size: 22px;
+    font-family: "Winky Rough", sans-serif;
+}
+
+.texto-sobre h3 {
+    font-size: 50px;
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    color: #DC143C;
+}

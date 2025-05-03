@@ -1,0 +1,55 @@
+.skills {
+    padding-top: 80vh;
+    padding-bottom: 35vh;
+    padding-left: 15vh;
+}
+
+.skill-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25%;
+    color: white; 
+    margin: 0, auto;
+    max-width: 165vh;
+}
+
+.skills h3 {
+    font-size: 50px;
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    color: #DC143C;
+    text-align: left;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.skill label {
+    flex: 1;
+    text-align: left;
+    font-size: 18px;
+}
+
+.progress-bar {
+    flex: 2;
+    background-color: #292f33;
+    border-radius: 5vh;
+    overflow: hidden;
+    height: 3vh;
+    position: relative;
+}
+
+.progress {
+    background-color: #DC143C;
+    height: 100%;
+    transition: width 0.5s ease;
+}
+
+.porcentagem {
+    flex: 0.5;
+    text-align: right;
+    font-size: 17px;
+}

@@ -1,0 +1,22 @@
+.contato{
+    background-color: #161a1d;
+    color: #fff;
+    text-align: center;
+    padding: 2vh;
+}
+
+.contato h3{
+    font-size: 50px;
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    color: #DC143C;
+    padding-top: 8vh;
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    gap: 3vh;
+    padding-top: 5vh;
+    padding-bottom: 20vh;
+}

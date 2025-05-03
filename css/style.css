@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    border: 0;
+    background-color: #161a1d;
+    overflow-x: hidden;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    background-color: #161a1d;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 11.7vh;
+    align-content: center;
+}
+
+.list ul {
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    font-size: 20px;
+    padding-right: 5vh;
+    padding-top: 2.8vh;
+}
+
+.list a {
+    color: white;
+    text-decoration: none;
+}
+
+.list a:hover {
+    color: red;
+}
+
+.boneco {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: -5vh;
+}
+
+.boneco img {
+    position: absolute;
+    z-index: 10;
+    height: 170px;
+    width: 140px;
+    padding-left: 27vh;
+    padding-top: 1.4vh;
+}
+
+hr {
+    color: rgb(255, 0, 0);
+    z-index: 5;
+}
